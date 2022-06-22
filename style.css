@@ -3,13 +3,34 @@
 }
 
 #foto-palco {
-	width: 30%;
+	width: 40%;
 }
 
 .titulo-release {
 	text-align: center;
+	background: #D0CEDD;
 }
 
 .principal {
+	padding: 30px;
 	background: #D0CEDD;
+}
+
+p {
+	text-align: center;
+}
+
+.titulo-assuntos {
+	text-align: center;
+}
+
+.itens {
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	font-style: italic;
+}
+
+#foto-flyer{
+	width: 40%;
 }
