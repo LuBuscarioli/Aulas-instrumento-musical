@@ -1,5 +1,47 @@
+header {
+	background: #CCCCCC;
+	padding: 20px 0;
+}
+
+#logo-principal {
+	width: 30%;
+}
+
+.caixa {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 140px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
 .titulo-principal {
 	text-align: center;
+	margin: 20px auto;
+	font-weight: bold;
+	font-size: 25px;
 }
 
 #foto-palco {
@@ -7,41 +49,62 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 25%;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .titulo-release {
 	text-align: center;
-	background: #D0CEDD;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 0px 20px 20px 20px;
 }
 
 .principal {
 	padding: 25px;
-	background: #D0CEDD;
+	background: #CCCCCC;
 	margin-right: 10px;
 	margin-left: 10px;
-}
-
-em strong {
-	color: #6E0A78;
 }
 
 p {
 	text-align: center;
 }
 
+.assuntos {
+	text-align: center;
+	margin: 20px;
+}
+
 .titulo-assuntos {
 	text-align: center;
 	font-size: 30px;
+	margin: 20px auto;
+	font-weight: bold;
 }
 
 .itens {
 	display: inline-block;
 	vertical-align: top;
-	width: 34%;
 	font-style: italic;
-	margin-left: 20px;
 }
 
 #foto-flyer{
-	width: 25%;
+	
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+#imagem-footer {
+	width: 100px;
+}
+
+.copyright {
+	color: white;
+	font-size: 15px;
+	margin-top: 20px;
 }
