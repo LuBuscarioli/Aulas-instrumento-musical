@@ -41,73 +41,56 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-.titulo-principal {
-	text-align: center;
-	margin: 20px auto;
-	font-weight: bold;
-	font-size: 22px;
+.planos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
 }
 
-#foto-palco {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 25%;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-.titulo-release {
-	text-align: center;
-	font-weight: bold;
-	font-size: 22px;
-	margin: 0px 20px 20px 20px;
-}
-
-.principal {
-	padding: 25px;
-	background: #CCCCCC;
-	margin-right: auto;
-	margin-left: auto;
-	width: 65%;
-	box-sizing: border-box;
-	border: 4px solid #CCCCCC;
-	border-radius: 10px;
-	line-height: normal;
-}
-
-p {
-	text-align: center;
-}
-
-div p strong{
-	font-weight: bold;
-	font-style: italic;
-}
-
-.assuntos {
-	text-align: center;
-	margin: 20px;
-
-}
-
-.titulo-assuntos {
-	text-align: center;
-	font-size: 22px;
-	margin: 20px auto;
-	font-weight: bold;
-}
-
-.itens {
-	font-size: 20px;
+.planos li {
+	/*background: #B098C1;*/
 	display: inline-block;
+	text-align: center;
+	width: 29%;
 	vertical-align: top;
-	font-style: italic;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.planos li:hover {
+	border-color: #B098C1;
+}
+
+.planos li:active {
+	border-color: white;
+}
+
+.planos li:hover h2 {
+	font-size: 35px;
+}
+
+.planos h2 {
+	font-size: 26px;
+	font-weight: bold;
+}
+
+#imagem-planos {
+	padding: 20px 0;
+	width: 80%;
+}
+
+.plano-descricao {
+	font-size: 17px;
 	line-height: normal;
 }
 
-#foto-flyer{
-	
+.plano-preco {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
 }
 
 footer {
@@ -124,4 +107,26 @@ footer {
 	color: white;
 	font-size: 15px;
 	margin-top: 20px;
+}
+
+main {
+	width: 950px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+form input {
+	display: block;
+	margin: 0 0 20px;
+	padding: 8px 25px;
+	width: 50%;
 }
