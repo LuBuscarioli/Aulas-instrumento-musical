@@ -1,47 +1,132 @@
-.titulo-principal {
-	text-align: center;
+header {
+	background: #CCCCCC;
+	padding: 20px 0;
 }
 
-#foto-palco {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 25%;
+#logo-principal {
+	width: 30%;
 }
 
-.titulo-release {
-	text-align: center;
-	background: #D0CEDD;
+.caixa {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
 }
 
-.principal {
-	padding: 25px;
-	background: #D0CEDD;
-	margin-right: 10px;
-	margin-left: 10px;
+body {
+	font-family: Verdana;
 }
 
-em strong {
-	color: #6E0A78;
+nav {
+	position: absolute;
+	top: 140px;
+	right: 0;
 }
 
-p {
-	text-align: center;
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
 }
 
-.titulo-assuntos {
-	text-align: center;
-	font-size: 30px;
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
 }
 
-.itens {
+nav a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.planos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.planos li {
+	/*background: #B098C1;*/
 	display: inline-block;
+	text-align: center;
+	width: 29%;
 	vertical-align: top;
-	width: 34%;
-	font-style: italic;
-	margin-left: 20px;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
 }
 
-#foto-flyer{
-	width: 25%;
+.planos li:hover {
+	border-color: #B098C1;
+}
+
+.planos li:active {
+	border-color: white;
+}
+
+.planos li:hover h2 {
+	font-size: 35px;
+}
+
+.planos h2 {
+	font-size: 26px;
+	font-weight: bold;
+}
+
+#imagem-planos {
+	padding: 20px 0;
+	width: 80%;
+}
+
+.plano-descricao {
+	font-size: 17px;
+	line-height: normal;
+}
+
+.plano-preco {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+#imagem-footer {
+	width: 100px;
+}
+
+.copyright {
+	color: white;
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+main {
+	width: 950px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+form input {
+	display: block;
+	margin: 0 0 20px;
+	padding: 8px 25px;
+	width: 50%;
 }
