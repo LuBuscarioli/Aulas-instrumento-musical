@@ -48,7 +48,6 @@ nav a:hover {
 }
 
 .planos li {
-	/*background: #B098C1;*/
 	display: inline-block;
 	text-align: center;
 	width: 29%;
@@ -151,4 +150,19 @@ form label, form legend {
 .enviar:hover {
 	background: darkseagreen;
 	transform: scale(1.1);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: purple;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
 }
