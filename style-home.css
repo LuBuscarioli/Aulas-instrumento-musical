@@ -37,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #FFFFFF;
+	color: purple;
 	text-decoration: underline;
 }
 
@@ -47,6 +47,7 @@ nav a:hover {
 	font-weight: bold;
 	font-size: 2em;
 	margin: 1em 0 1em;
+	clear: left;
 }
 
 .foto-palco {
@@ -55,31 +56,29 @@ nav a:hover {
 	margin-right: auto;
 	width: 20%;
 	margin-top: 20px;
-	margin-bottom: 20px;
 	border-radius: 10px;
 }
 
-.titulo-release {
-	text-align: center;
-	font-weight: bold;
-	font-size: 22px;
-	margin: 0px 20px 20px 20px;
+.foto-frente {
+	width: 180px;
+	float: left;
+	margin: 0 20px 20px 0;
+	border-radius: 10px;
 }
 
 .principal {
 	padding: 1em;
-	background: #CCCCCC;
+	/*background: #CCCCCC;*/
 	margin-right: auto;
 	margin-left: auto;
 	width: 940px;
 	box-sizing: border-box;
-	border: 4px solid #CCCCCC;
-	border-radius: 10px;
+	/*border: 4px solid #CCCCCC;
+	border-radius: 10px;*/
 	line-height: normal;
 }
 
 p {
-	text-align: center;
 	margin: 0 0 1em;
 }
 
@@ -93,23 +92,12 @@ div p strong{
 
 }
 
-.titulo-assuntos {
-	text-align: center;
-	font-size: 22px;
-	margin: 20px auto;
-	font-weight: bold;
-}
-
 .itens {
 	font-size: 1.5em;
 	display: inline-block;
 	vertical-align: top;
 	line-height: normal;
 }
-
-/*#foto-flyer{
-	
-}*/
 
 footer {
 	text-align: center;
