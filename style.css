@@ -3,7 +3,7 @@ header {
 	padding: 20px 0;
 }
 
-#logo-principal {
+.logo-principal {
 	width: 30%;
 }
 
@@ -109,7 +109,7 @@ footer {
 }
 
 form {
-	margin: 40px 0;
+	margin: 40px 0 0 40px;
 }
 
 form label, form legend {
@@ -148,7 +148,8 @@ form label, form legend {
 }
 
 table {
-	margin: 20px 0 40px;
+	margin: 40px 40px 40px 40px; 
+	width: 20%;
 }
 
 thead {
