@@ -49,7 +49,7 @@
 	margin-top: 10px;
 }
 
-/* CSS FORM!!! /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* CSS FORM!!! //////////////////////// */
 
 form {
 	margin: 40px 0 0 40px;
@@ -107,7 +107,7 @@ td, th {
 }
 
 
-/* CSS HOME!!!! ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/ 
+/* CSS HOME!!!! //////////////////////////////////*/ 
 
 
 header {
@@ -116,7 +116,7 @@ header {
 }
 
 .logo-principal {
-	width: 30%;
+	width: 25%;
 }
 
 .caixa {
@@ -274,7 +274,16 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-	body {
-		background: red;
+	.caixa, .principal, .conteudo-assuntos, .mapa-conteudo, .video {
+		width: auto;
+	}
+	h1 {
+		text-align: center;
+	}
+	nav {
+		position: static
+	}
+	.lista-assuntos, .foto-assuntos {
+		width: 100%;
 	}
 }
