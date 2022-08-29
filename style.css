@@ -274,18 +274,20 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+
 	.caixa, .principal, .conteudo-assuntos, .mapa-conteudo, .video {
 		width: auto;
 		margin: 1em 1em;
 	}
 
 	header {
-		padding-top: 0.5em;
+		padding: 1em;
 	}
 
 	.titulo-principal {
-		font-size: 1em;
-		font-weight: bold;
+		font-size: 1.5em;
+    	font-weight: bold;
+    	margin: 1em;
 	}
 
 	.foto-palco, .foto-frente{
@@ -297,20 +299,45 @@ footer {
 	}
 
 	h1 {
-		padding: 1em;
 		text-align: center;
 	}
 
 	nav {
 		position: static;
-		margin: 1em auto;
+		text-align: center;
 	}
 
-	nav ul {
-		margin: 0 1em;
+	nav li {
+		display: block;
+		margin: 1em 1em;
 	}
 
 	.lista-assuntos, .foto-assuntos {
 		width: 100%;
+		margin-bottom: 1em;
+	}
+
+	/* CSS PLANOS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+	.planos, .planos li {
+		width: auto;
+		margin: 0.5em;
+	}
+
+	/* CSS FORM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+	form {
+		margin: 1.5em;
+	}
+
+	.input-padrao {
+		width: 80%;
+		text-align: center;
+	}
+
+	.enviar {
+		width: fit-content;
+		padding: 10px 10px;
+		font-size: 1em;
 	}
 }
